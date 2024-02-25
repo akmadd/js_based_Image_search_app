@@ -1,0 +1,98 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: url(image/pikaso-composition\ \(2\).jpg),linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+.header h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 4rem;
+}
+.search{
+    padding: 15px;
+    outline: none;
+    width: 35em;
+    border-radius: 50px;
+    border: none;
+}
+.search{
+    text-align: center;
+    font-size: 1.3rem;
+    color: grey;
+}
+.search:hover{
+    box-shadow: 4px 4px 4px 4px rgba(236, 27, 27, 0.2);
+    transition: 0.2s;
+}
+input::placeholder{
+    font-size: 26px;
+}
+.btn{
+    height: 50px;
+    font-size:25px;
+    padding: 10px;
+    border-radius: 50px;   
+}
+.btn:hover{
+    box-shadow: 4px 4px 4px 4px rgba(169, 136, 185, 0.2);
+    transition: 0.2s;
+}
+.name h2{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    font-family: roboto;
+    font-size: 3rem;
+    font-weight: bold
+    
+}
+.photoss{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    padding: 2rem 0rem;
+    width: 80%;
+    margin: auto;
+    row-gap: 3rem;
+    column-gap: 85px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+
+}
+.more button{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    border-radius: 20px;
+    background-color: rgb(79, 200, 222);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+a{
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(213, 73, 48);
+    border-radius: 10px;
+    border: 2px solid grey;
+    
+}
